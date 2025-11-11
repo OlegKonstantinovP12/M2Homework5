@@ -12,7 +12,7 @@ class MainViewController: UIViewController {
 
     
     private lazy var usersTableView: UITableView = {
-        $0.register(UITableViewCell.self, forCellReuseIdentifier: "users")
+        $0.register(UITableViewCell.self, forCellReuseIdentifier: CellIdentifier.users.rawValue)
         $0.dataSource = self
         
         return $0
@@ -36,7 +36,7 @@ extension MainViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "users", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: CellIdentifier.users.rawValue, for: indexPath)
         var config = cell.defaultContentConfiguration()
         
         config.text = users[indexPath.row].name
@@ -50,7 +50,7 @@ extension MainViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         switch section {
-        case 0: return "Users"
+        case 0: return String(CellIdentifier.users.rawValue).uppercased()
         default: return nil
         }
     }

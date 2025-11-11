@@ -10,9 +10,9 @@ import UIKit
 class SecondaryViewController: UIViewController {
     
     private let mockUsers = UsersData.mockLoadData()
-    private let mockGroup = GroupData.mockLoadData()
+    private let mockGroup = GroupsData.mockLoadData()
 
-    private lazy var secondaryTableView: UITableView = {
+    private lazy var usersAndGroupsTableView: UITableView = {
         $0.register(UITableViewCell.self, forCellReuseIdentifier: CellIdentifier.users.rawValue)
         $0.register(UITableViewCell.self, forCellReuseIdentifier: CellIdentifier.groups.rawValue)
         $0.dataSource = self
@@ -22,7 +22,7 @@ class SecondaryViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-        view.addSubview(secondaryTableView)
+        view.addSubview(usersAndGroupsTableView)
     }
 
 
