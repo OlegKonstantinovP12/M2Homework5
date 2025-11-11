@@ -6,30 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7CBFA9D82EC30C4700BBDC71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CBFA9D12EC30C4700BBDC71 /* Assets.xcassets */; };
+		7CBFA9DA2EC30C4700BBDC71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CBFA9D42EC30C4700BBDC71 /* LaunchScreen.storyboard */; };
+		7CBFA9DB2EC30C4700BBDC71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBFA9D02EC30C4700BBDC71 /* AppDelegate.swift */; };
+		7CBFA9DC2EC30C4700BBDC71 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBFA9D52EC30C4700BBDC71 /* MainViewController.swift */; };
+		7CBFA9DD2EC30C4700BBDC71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBFA9D62EC30C4700BBDC71 /* SceneDelegate.swift */; };
+		7CBFA9DF2EC30C5C00BBDC71 /* UsersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBFA9DE2EC30C5C00BBDC71 /* UsersData.swift */; };
+		7CBFA9E42EC32EC800BBDC71 /* SecondaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBFA9E32EC32EC800BBDC71 /* SecondaryViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		7CBFA9B82EC30A4000BBDC71 /* M2Homework5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M2Homework5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CBFA9D02EC30C4700BBDC71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CBFA9D12EC30C4700BBDC71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CBFA9D22EC30C4700BBDC71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CBFA9D32EC30C4700BBDC71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CBFA9D52EC30C4700BBDC71 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7CBFA9D62EC30C4700BBDC71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7CBFA9DE2EC30C5C00BBDC71 /* UsersData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersData.swift; sourceTree = "<group>"; };
+		7CBFA9E32EC32EC800BBDC71 /* SecondaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7CBFA9CA2EC30A4100BBDC71 /* Exceptions for "M2Homework5" folder in "M2Homework5" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 7CBFA9B72EC30A4000BBDC71 /* M2Homework5 */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		7CBFA9BA2EC30A4000BBDC71 /* M2Homework5 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				7CBFA9CA2EC30A4100BBDC71 /* Exceptions for "M2Homework5" folder in "M2Homework5" target */,
-			);
-			path = M2Homework5;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7CBFA9B52EC30A4000BBDC71 /* Frameworks */ = {
@@ -45,7 +42,7 @@
 		7CBFA9AF2EC30A4000BBDC71 = {
 			isa = PBXGroup;
 			children = (
-				7CBFA9BA2EC30A4000BBDC71 /* M2Homework5 */,
+				7CBFA9D72EC30C4700BBDC71 /* M2Homework5 */,
 				7CBFA9B92EC30A4000BBDC71 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +53,37 @@
 				7CBFA9B82EC30A4000BBDC71 /* M2Homework5.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7CBFA9D72EC30C4700BBDC71 /* M2Homework5 */ = {
+			isa = PBXGroup;
+			children = (
+				7CBFA9E02EC30C6300BBDC71 /* Model */,
+				7CBFA9D02EC30C4700BBDC71 /* AppDelegate.swift */,
+				7CBFA9D12EC30C4700BBDC71 /* Assets.xcassets */,
+				7CBFA9D22EC30C4700BBDC71 /* Info.plist */,
+				7CBFA9D42EC30C4700BBDC71 /* LaunchScreen.storyboard */,
+				7CBFA9D62EC30C4700BBDC71 /* SceneDelegate.swift */,
+				7CBFA9E12EC30C6B00BBDC71 /* ViewControllers */,
+			);
+			path = M2Homework5;
+			sourceTree = "<group>";
+		};
+		7CBFA9E02EC30C6300BBDC71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7CBFA9DE2EC30C5C00BBDC71 /* UsersData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7CBFA9E12EC30C6B00BBDC71 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7CBFA9D52EC30C4700BBDC71 /* MainViewController.swift */,
+				7CBFA9E32EC32EC800BBDC71 /* SecondaryViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +100,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				7CBFA9BA2EC30A4000BBDC71 /* M2Homework5 */,
 			);
 			name = M2Homework5;
 			packageProductDependencies = (
@@ -122,6 +147,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CBFA9D82EC30C4700BBDC71 /* Assets.xcassets in Resources */,
+				7CBFA9DA2EC30C4700BBDC71 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +159,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CBFA9DB2EC30C4700BBDC71 /* AppDelegate.swift in Sources */,
+				7CBFA9DC2EC30C4700BBDC71 /* MainViewController.swift in Sources */,
+				7CBFA9DD2EC30C4700BBDC71 /* SceneDelegate.swift in Sources */,
+				7CBFA9DF2EC30C5C00BBDC71 /* UsersData.swift in Sources */,
+				7CBFA9E42EC32EC800BBDC71 /* SecondaryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CBFA9D42EC30C4700BBDC71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CBFA9D32EC30C4700BBDC71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7CBFA9CC2EC30A4100BBDC71 /* Debug */ = {
@@ -150,9 +193,9 @@
 				INFOPLIST_FILE = M2Homework5/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -161,12 +204,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.study.M2Homework5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -182,9 +229,9 @@
 				INFOPLIST_FILE = M2Homework5/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -193,12 +240,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.study.M2Homework5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
