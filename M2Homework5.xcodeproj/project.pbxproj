@@ -14,6 +14,8 @@
 		7CBFA9DD2EC30C4700BBDC71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBFA9D62EC30C4700BBDC71 /* SceneDelegate.swift */; };
 		7CBFA9DF2EC30C5C00BBDC71 /* UsersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBFA9DE2EC30C5C00BBDC71 /* UsersData.swift */; };
 		7CBFA9E42EC32EC800BBDC71 /* SecondaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBFA9E32EC32EC800BBDC71 /* SecondaryViewController.swift */; };
+		7CBFA9F52EC3358100BBDC71 /* GroupData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBFA9F42EC3358100BBDC71 /* GroupData.swift */; };
+		7CBFA9F82EC3468E00BBDC71 /* CellIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBFA9F72EC3468E00BBDC71 /* CellIdentifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		7CBFA9D62EC30C4700BBDC71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7CBFA9DE2EC30C5C00BBDC71 /* UsersData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersData.swift; sourceTree = "<group>"; };
 		7CBFA9E32EC32EC800BBDC71 /* SecondaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryViewController.swift; sourceTree = "<group>"; };
+		7CBFA9F42EC3358100BBDC71 /* GroupData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupData.swift; sourceTree = "<group>"; };
+		7CBFA9F72EC3468E00BBDC71 /* CellIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellIdentifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +62,10 @@
 		7CBFA9D72EC30C4700BBDC71 /* M2Homework5 */ = {
 			isa = PBXGroup;
 			children = (
+				7CBFA9F92EC34DFD00BBDC71 /* App */,
+				7CBFA9FB2EC34E3E00BBDC71 /* Resources */,
 				7CBFA9E02EC30C6300BBDC71 /* Model */,
-				7CBFA9D02EC30C4700BBDC71 /* AppDelegate.swift */,
-				7CBFA9D12EC30C4700BBDC71 /* Assets.xcassets */,
-				7CBFA9D22EC30C4700BBDC71 /* Info.plist */,
-				7CBFA9D42EC30C4700BBDC71 /* LaunchScreen.storyboard */,
-				7CBFA9D62EC30C4700BBDC71 /* SceneDelegate.swift */,
+				7CBFA9F62EC3464000BBDC71 /* Enums */,
 				7CBFA9E12EC30C6B00BBDC71 /* ViewControllers */,
 			);
 			path = M2Homework5;
@@ -73,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				7CBFA9DE2EC30C5C00BBDC71 /* UsersData.swift */,
+				7CBFA9F42EC3358100BBDC71 /* GroupData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -84,6 +87,33 @@
 				7CBFA9E32EC32EC800BBDC71 /* SecondaryViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7CBFA9F62EC3464000BBDC71 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				7CBFA9F72EC3468E00BBDC71 /* CellIdentifier.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		7CBFA9F92EC34DFD00BBDC71 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7CBFA9D02EC30C4700BBDC71 /* AppDelegate.swift */,
+				7CBFA9D62EC30C4700BBDC71 /* SceneDelegate.swift */,
+				7CBFA9D22EC30C4700BBDC71 /* Info.plist */,
+				7CBFA9D42EC30C4700BBDC71 /* LaunchScreen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7CBFA9FB2EC34E3E00BBDC71 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7CBFA9D12EC30C4700BBDC71 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +190,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CBFA9DB2EC30C4700BBDC71 /* AppDelegate.swift in Sources */,
+				7CBFA9F52EC3358100BBDC71 /* GroupData.swift in Sources */,
+				7CBFA9F82EC3468E00BBDC71 /* CellIdentifier.swift in Sources */,
 				7CBFA9DC2EC30C4700BBDC71 /* MainViewController.swift in Sources */,
 				7CBFA9DD2EC30C4700BBDC71 /* SceneDelegate.swift in Sources */,
 				7CBFA9DF2EC30C5C00BBDC71 /* UsersData.swift in Sources */,
@@ -190,7 +222,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VHF67AFR4G;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = M2Homework5/Info.plist;
+				INFOPLIST_FILE = M2Homework5/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -226,7 +258,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VHF67AFR4G;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = M2Homework5/Info.plist;
+				INFOPLIST_FILE = M2Homework5/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
